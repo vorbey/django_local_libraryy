@@ -1,0 +1,1 @@
+web: gunicorn locallibraryy.wsgi --log-file -
