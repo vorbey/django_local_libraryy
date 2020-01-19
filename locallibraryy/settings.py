@@ -123,11 +123,11 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 # Redirect to home URL after login (Default redirects to /accounts/profile/)
-Heroku: Update database configuration from $DATABASE_URL.
+# Heroku: Update database configuration from $DATABASE_URL.
 import dj_database_url
 db_from_env = dj_database_url.config(conn_max_age=500)
-DATABASES['default'].update(db_from_env)OGIN_REDIRECT_URL = '/'
- Static files (CSS, JavaScript, Images)
+DATABASES['default'].update(db_from_env)
+# Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 # The absolute path to the directory where collectstatic will collect static files for deployment.
