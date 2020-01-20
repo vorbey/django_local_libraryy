@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'cg#p$g+j9tax!#a3cup@1$8obt2_+&
 # DEBUG = True
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', False) )
 
-ALLOWED_HOSTS = ['<your app URL without the  https://salty-atoll-32951.herokuapp.com']
+ALLOWED_HOSTS = ['<your app URL without the  https://salty-atoll-32951.herokuapp.com','127.0.0.1']
 # For example:
 # ALLOWED_HOSTS = ['fathomless-scrubland-30645.herokuapp.com','127.0.0.1']
 
